@@ -1,0 +1,22 @@
+server:
+  module: order
+  domain: user
+  version: 1.0
+  secret: moesama
+  grpcAddress: 127.0.0.1:10002
+
+mysql:
+  driverName: mysql
+  host: 127.0.0.1
+  port: 3306
+  database: gin_grpc
+  username: moesama
+  password: zzt2024
+  charset: utf8mb4
+
+etcd:
+  address: 127.0.0.1:2379
+
+redis:
+  address: 127.0.0.1:6379
+  password: zzt2024
